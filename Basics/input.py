@@ -10,3 +10,4 @@ input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
 
 # zmiana typu wprowadzonych danych
 jet = int(input("Podaj cene wynajmu prywatnego samolotu: "))
+# input() i int() są zagnieżdżone
