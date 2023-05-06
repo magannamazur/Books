@@ -2,6 +2,10 @@
 # 1)
 car = input("Serwis Mercedesa: ")
 car = int(car)
+car_f = float(car)
 
-# 2)
+print(car, car_f)
+
+# 2) poprzez zagnieżdżenie
 rent = int(input("Apartament w Śródmieściu: "))
+

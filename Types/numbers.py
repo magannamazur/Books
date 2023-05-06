@@ -8,5 +8,10 @@ print("1500 - 45 + 25 =", 1500 - 45 + 25)
 print(107 / 4)
 # dzielenie całkowite
 print(107 // 4)
-# modulo - yznacza resztę z dzielenia całkowitego
+# modulo - wyznacza resztę z dzielenia całkowitego
 print(107 % 4)
+
+# Używanie operatorów rozszerzonego przypisania
+food = 100
+food = food * 52
+food *= 52
