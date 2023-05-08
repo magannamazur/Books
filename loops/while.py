@@ -5,7 +5,6 @@ response = ""
 while response != "Dlatego.":
     response = input("Dlaczego?\n")
 print("Aha, już wiem.")
-input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
 
 
 # umyślna nieskończona petla
@@ -20,4 +19,32 @@ while True:
     if count == 5:
         continue
     print(count)
-input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
+
+
+# break - przerywa pętlę
+# continue - wraca na początek pętli
+
+print("\tEkskluzywna Sieć Komputerowa")
+print("\t Tylko dla członków!\n")
+security = 0
+username = ""
+while not username:
+    username = input("Użytkownik: ")
+    password = ""
+while not password:
+    password = input("Hasło: ")
+if username == "M.Dawson" and password == "sekret":
+    print("Cześć, Mike!")
+    security = 5
+elif username == "S.Meier" and password == "cywilizacja":
+    print("Hej, Sid!")
+    security = 3
+elif username == "gość" or password == "gość":
+    print("Witaj, Gościu!")
+    security = 1
+else:
+    print("Nieudana próba logowania. Nie jesteś taki wyjątkowy.\n")
+
+# not - nie, True gdy warunek False
+# and - i, True, gdy oba warunki są True
+# or - albo, False, gdy oba warunki są False
