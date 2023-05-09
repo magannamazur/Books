@@ -6,3 +6,8 @@ die2 = random.randrange(6) + 1 # liczbę całkowitą z przedziału od 0 do górn
 die3 = random.randrange(5,7) # dostepne 5,6
 
 print(die1, die2, die3)
+
+# wybór z krotki
+WORDS = ("python", "anagram", "łatwy", "skomplikowany", "odpowiedź", "ksylofon")
+word = random.choice(WORDS)
+print(word)
