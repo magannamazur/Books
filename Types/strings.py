@@ -23,3 +23,10 @@ print(quote.strip())
 # Zwraca łańcuch, w którym wszystkie wystąpienia łańcucha stary zostały zastąpione łańcuchem nowy.
 # Opcjonalny parametr max ogranicza liczbę zamian.
 print(quote.replace("e", "E", 3))
+
+word = "Something"
+print(len(word))
+print(len("ds"))
+
+# indeksowanie od 0
+print("word[", 3, "]\t", word[3])
