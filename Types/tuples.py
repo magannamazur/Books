@@ -36,4 +36,4 @@ print(id(inventory))
 inventory += chest
 print("Twój aktualny inwentarz to:")
 print(inventory)
-print(id(inventory))
+print(id(inventory)) # tworzymy nową krotkę
