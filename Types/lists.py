@@ -70,13 +70,35 @@ print(scores)
 # Metoda remove() usuwa 1 wystepujacy element na podstawie jego wartości
 scores.remove(5)
 print(scores)
-# jesli nei bedzie elementu na liscie pojawi sie błąd
+# jesli nie bedzie elementu na liscie pojawi sie błąd
 # bezpieczny sposób używania tej metody:
 score = 7
 if score in scores:
     scores.remove(score)
 
-scores = [1,3,5,7,5,3,2]
+scores = [1,3,5,7,5,3,2,5]
+
 # Sortowanie wyników
 scores.sort(reverse=True) # True dl reverse odwraca kolejność
 print(scores)
+
+# liczenie elementów
+c = scores.count(5)
+print(c)
+
+# numer pozycji pierwszego wystąpienia argumentu wartość
+s = scores.index(5)
+print(s)
+
+# Wstawia wartość na pozycji i insert(i, wartość)
+scores.insert(1, 50)
+print(scores)
+
+# Zwraca wartość zajmującą pozycję i oraz usuwa ją z listy. Przekazanie
+# numeru pozycji i jest opcjonalne. Jeśli argument i nie zostanie
+# podany, usuwany i zwracany jest ostatni element listy.
+scores.pop()
+print(scores)
+scores.pop(1)
+print(scores)
+
