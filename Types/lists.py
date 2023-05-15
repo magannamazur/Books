@@ -102,3 +102,6 @@ print(scores)
 scores.pop(1)
 print(scores)
 
+# nested
+nested = ["pierwszy", ("drugi", "trzeci"), ["czwarty", "piąty", "szósty"]] # 3 elementy
+print(nested)
