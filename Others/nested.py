@@ -18,3 +18,11 @@ print(a_score[0])
 # rozpakowywanie
 name, score = ("Szymek", 175)
 print(name, score)
+
+# additional notes
+print("additional notes")
+entry = scores[0]
+print(entry)
+mis, stgh  = entry
+print(mis)
+print(stgh)
