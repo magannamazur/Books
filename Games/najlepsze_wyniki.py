@@ -14,6 +14,7 @@ Najlepsze wyniki
 # zakończ
     if choice == "0":
         print("Do widzenia.")
+        input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
 
 # wyświetl tabelę najlepszych wyników
     elif choice == "1":
@@ -31,3 +32,7 @@ Najlepsze wyniki
         scores.append(entry)
         scores.sort(reverse=True)
         scores = scores[:5]  # zachowaj tylko 5 najlepszych wyników
+
+# nieznana opcja
+    else:
+        print("Niestety,", choice, "nie jest prawidłowym wyborem.")
