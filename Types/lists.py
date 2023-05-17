@@ -103,3 +103,9 @@ scores.pop(1)
 print(scores)
 
 
+# tworzenie nowej zmiennej (jako kopi) poprzez wycinanie - nie zmienia głównej listy
+print(scores)
+dif_scores = scores[:3]
+print(dif_scores, "\t" , scores)
+
+
