@@ -1,4 +1,6 @@
-#pary danych
+# pary danych
+# klucz jest: niemutowalny (zeby nie zmienic klucza), unikalny
+# wartość: obojętnie, może się powtarzać
 
 dic = {}
 print(type(dic))
@@ -30,9 +32,24 @@ print(powitanie)
 powitanie["4a"] = "hahhha"
 print(powitanie)
 
-# zabezpieczenie dodania
+# zabezpieczenie dodania (teZ spoko przy usuwaniu, żeby uniknąć błędu)
 klucz = 5
 if klucz not in powitanie:
     powitanie[5] = "dzien dobry"
 else:
     print("klucz jest już użyty")
+
+# Usunięcie pary klucz-wartość
+del powitanie[5]
+print(powitanie)
+
+# keys() - zwraca widok wszystkich kluczy występujących w słowniku
+print(powitanie.keys())
+
+# values() - zwraca widok wszystkich wartości występujących w słowniku
+print(powitanie.values())
+
+# items() - zwraca widok wszystkich elementów słownika, każdy element to dwuskładnikowa krotka (klucz, wartość)
+print(powitanie.items())
+
+# keys(), values() i items() — są pod pewnymi względami podobne do list. Można po nich iterować za pomocą pętli for.
