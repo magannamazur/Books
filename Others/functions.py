@@ -41,3 +41,29 @@ birthday2("Katarzyna", 12)
 
 # zmienna lokalna - w funkcji
 # zmienna globalna - poza funkcją
+
+# dostep funkcji do zmiennej globalnej
+# Globalny zasięg
+# Demonstruje zmienne globalne
+def read_global():
+    print("Wartość zmiennej value odczytana z funkcji read_global() wynosi:", value)
+
+def shadow_global():
+    value = -10
+    print("Wartość zmiennej value odczytana z funkcji shadow_global() wynosi:", value)
+
+def change_global():
+    # global - uzyskuje całkowity dostęp do zmiennej globalnej
+    global value
+    value = -10
+    print("Wartość zmiennej value odczytana z funkcji change_global() wynosi:", value)
+
+# główna część programu
+# value jest zmienną globalną, ponieważ jesteśmy teraz w zakresie globalnym
+value = 10
+read_global()
+print("Wartość zmiennej globalnej value nadal wynosi:", value,"\n")
+shadow_global()
+print("Wartość zmiennej globalnej value nadal wynosi:", value,"\n")
+change_global()
+print("Po powrocie do zakresu globalnego okazuje się, że wartość zmiennej value zmieniła się na:", value)
