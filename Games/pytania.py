@@ -1,0 +1,1 @@
+# Kiedy program odczytuje wiersz z pliku, zastępuje wszystkie prawe ukośniki znakiem nowego wiersza.
