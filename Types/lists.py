@@ -1,5 +1,5 @@
-# mutowalne
-# mają te funkcjeco krotki
+# mutowalne, mozna zmieniac a i tak beda miec to samo miejsce w pamieci
+# mają te funkcje co krotki
 
 lista = [] # pusta lista
 
