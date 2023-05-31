@@ -1,0 +1,1 @@
+Notes from book: Python programming for the absolute beginner - Micheal Dawson 
