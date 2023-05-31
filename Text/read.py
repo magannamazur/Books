@@ -30,7 +30,8 @@ text_file.close()
 print("\nOdczytywanie znaków z wiersza.")
 text_file = open("odczytaj_to.txt", "r")
 print(text_file.readline(1))
-print(text_file.readline(7)) # odczytuje z BIEŻĄCEGO wierza
+print(text_file.readline(20)) # odczytuje z BIEŻĄCEGO wierza, jesli jest mniej niz 20 znakow, pokaze do konca lini
+# zeby odczytal kolejna linei trzeb uzyc komendy jeszcze raz
 text_file.close()
 
 
