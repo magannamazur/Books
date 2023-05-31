@@ -61,5 +61,8 @@ def main():
         print("Wynik:", score, "\n\n")
         # pobierz kolejny blok
         category, question, answers, correct, explanation = next_block(trivia_file)
+    trivia_file.close()
+    print("To było ostatnie pytanie!")
+    print("Twój końcowy wynik wynosi", score)
 
 main()
