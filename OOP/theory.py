@@ -1,0 +1,2 @@
+# atrybuty - cechy
+# metody - funkcje
