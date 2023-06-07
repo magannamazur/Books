@@ -15,6 +15,7 @@ class Player(object):
             response = input(question).lower()
         return response
 
+    @staticmethod
     def ask_number(question, low, high):
         """Poproś o podanie liczby z określonego zakresu."""
         response = None
@@ -25,3 +26,6 @@ class Player(object):
     if __name__ == "__main__":
         print("Uruchomiłeś ten moduł bezpośrednio (zamiast go zaimportować).")
         input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
+    # koncepcja zwiazana z modulami, jesli modul zostal uruchomiony warunek jest prawdziwy
+    # Natomiast jest fałszywy, jeśli plik został zaimportowany jako moduł.
+    # It Allows You to Execute Code When the File Runs as a Script, but Not When It’s Imported as a Module
