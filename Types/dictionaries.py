@@ -1,3 +1,4 @@
+# mutowalne, maja po zmianie to samo miejsce w pamiecie
 # pary danych
 # klucz jest: niemutowalny (zeby nie zmienic klucza), unikalny
 # wartość: obojętnie, może się powtarzać
