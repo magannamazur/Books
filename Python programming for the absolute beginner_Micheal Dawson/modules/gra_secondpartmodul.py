@@ -4,7 +4,7 @@ print("Witaj w najprostszej grze na świecie!\n")
 again = None
 while again != "n":
     players = []
-    num = gra.Player.ask_number(question = "Podaj liczbę graczy (2 - 5): ", low = 2, high = 5)
+    num = gra.Player.ask_number(question ="Podaj liczbę graczy (2 - 5): ", low = 2, high = 5)
 
     for i in range(num):
         name = input("Nazwa gracza: ")
